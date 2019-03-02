@@ -12,11 +12,18 @@
     <string name="action_howtouse_help">Help &amp; support</string>
     <string name="action_settings">Settings</string>
     <string name="action_about">About</string>
+    <string name="action_help_support">Help &amp; support</string>
+    <string name="main_menu_title">Main menu</string>
     <string name="pref_previously_started" translatable="false">is_first</string>
 
     <!--Main activity sorting menu-->
     <string name="sort_asc">Ascending</string>
     <string name="sort_desc">Desending</string>
+    <string name="sort_title">Sort history</string>
+    <string name="sort_by_time">By time</string>
+    <string name="sort_by_title">By title</string>
+    <string name="sort_by_notes">By notes contents</string>
+
 
     <!--Main activity-->
     <string name="main_toolbar_title">Dash notes - History</string>
@@ -33,6 +40,10 @@
     <string name="bottomsheet_get_title_toast">Title</string>
     <string name="bottomsheet_get_message_toast">Notes</string>
     <string name="bottomsheet_toast_message">copied to clipboard.</string>
+    <string name="bottomsheet_header_title">Notes information</string>
+    <string name="bottomsheet_datentime_title">Date and time</string>
+    <string name="bottomsheet_title_title">Title</string>
+    <string name="bottomsheet_notes_title">Notes</string>
 
     <string name="main_sort_time_asc_snackbar">Sorted by time in ascending order.</string>
     <string name="main_sort_time_desc_snackbar">Sorted by time in descending order.</string>
@@ -52,6 +63,7 @@
     <string name="preference_menu_reset_message">Are you sure you want to reset ALL preferences?</string>
 
     <!--Preference screen-->
+    <string name="preference_menu_update_notification">Update notification</string>
     <string name="preference_screen_toolbar_title">Settings</string>
     <string name="preference_category_1_title">Notes notification</string>
 
@@ -140,13 +152,13 @@
     <string name="preference_custom_suggestion_3_title">Custom suggestion 3</string>
     <string name="preference_custom_suggestion_3_defaultValue">Schedule</string>
 
-    <string name="preference_category_2_information_key">TITLE_SUGGESTIONS_DESCRIPTIONS</string>
+    <string name="preference_category_2_information_key" translatable="false">TITLE_SUGGESTIONS_DESCRIPTIONS</string>
     <string name="preference_category_2_information_summary">This feature is only available for API 28(Android 9) or above. API 27 or below is not supported. \'Change title\' option should be enabled in order to use these suggestions.</string>
 
     <string name="preference_category_3_title">User interface</string>
 
     <string name="preference_material_design_2_key" translatable="false">MATERIAL_DESIGN_2</string>
-    <string name="preference_material_design_2_title">Material design 2</string>
+    <string name="preference_material_design_2_title" translatable="false">Material design 2</string>
     <string name="preference_material_design_2_summary">Use new material design theme in snackbars, bottom sheets and much more.</string>
     <string name="preference_material_design_2_toast_message">Theme applied.</string>
 
@@ -163,21 +175,19 @@
         "Dash notes, a simple notes app aims to use stock android features.\n\n"
 
         "Dash notes utilizes stock android quick settings tiles and notification services to provide fast, easy note-taking experience to users. It also gives you a fresh look in UI. Some material design 2 styles have been implemented, such as snackbar and the bottom sheet view.\n\n"
-        "How to use:\n"
-        "Pull down your quick settings panel, navigate to the edit qs tile button, and add Dash Notes tile to your quick settings panel.\n\n"
 
-        "In the main activity, you can see your note-taking histories. Press it and the information of your note will pop up from the bottom. Press and hold your history to delete it. In the bottom sheet view, you can press and hold to copy them.\n\n"
-        "If you face any question or want to give suggestions, feel free to contact me:P"
+        "Dash notes comes very handy when you need to jot some notes, such as:\n"
+        " - creating a buying list\n"
+        " - making some reminders for yourself\n"
+        " - jotting down some important messages\n"
+        " - writing some mottos\n"
+        "and much more! Explore your own ways to use this app!\n\n"
+
+        "Keep in mind that this app may not support android with skins, such as MIUI, EMUI, Flyme, Funtouch OS…And they will never be supported unless the system developer add back the BASIC Android features.\n\n"
+
+        "If you face any question or want to give suggestions about anything, feel free to contact me:P"
     </string>
-    <string name="about_todo_title">To-do list</string>
-    <string name="about_todo_content">
-        "- IMPROVE CODE STRUCTURES. Let me learn more about OOP first.\n"
-        "- Reduce app size. I can't tolerate it. How come an app with NOT MUCH FUNCTIONALITY occupies 7MB???\n"
-        "- use multi-line feature in notification, get rid of hard coding\n"
-        "- use customadapter instead of simpleadapter in history listView\n"
-        "- use card view for history(?\n\n"
-        "Let me integrate Google firebase and finish the tasks above. No public release till then."
-    </string>
+
     <string name="about_contributors_title">Contributors</string>
     <string name="about_kaito_intro">A student from Hong Kong</string>
     <string name="about_ysl_intro">App icon designer and my code proofreader</string>
@@ -198,6 +208,10 @@
 
 
     <!--Help and support activity-->
+    <string name="help_menu_privacy_policy_title">Privacy policy</string>
+    <string name="help_category_contacts_title">Contact us</string>
+    <string name="help_faq_category_title">Frequently asked questions</string>
+
     <string name="help_contacts_email_key" translatable="false">CONTACTS_EMAIL</string>
     <string name="help_contacts_email_title">Send feedback</string>
     <string name="help_contacts_email_address" translatable="false">tommychoiht@gmail.com</string>

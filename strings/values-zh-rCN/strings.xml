@@ -3,7 +3,7 @@
     <string name="app_name">Dash notes</string>
     <string name="action_about">关于</string>
     <string name="action_deleteAll">删除全部</string>
-    <string name="action_howtouse_tutorial">教程</string>
+    <string name="action_howtouse_tutorial">教学</string>
     <string name="title_activity_about">关于</string>
     <string name="action_howtouse_title">使用方法</string>
     <string name="main_emptylistview">暂无历史记录</string>
@@ -27,11 +27,124 @@
     <string name="noti_channel_descriptions">主要服务 - 在这频道上记下你的笔记</string>
     <string name="about_about_app_large_text">
         "Dash notes - 一个简洁的记事程序，运用安卓新特性来让用户记下任何文字。\n\n"
-        "Dash notes 善用安卓新的快捷通知瓷贴和通知样式，给予用户一个快速，方便的记录方式。Dash notes也给予使用者一个简单，整洁的界面，例如加入了material design 2的bottom sheet和snackbar。\n\n"
-        "使用方法：\n拉下通知栏，拖拽并加入Dash notes瓷贴，单击瓷贴即可在通知上开始记事。\n\n"
-        "你的记事记录会在主界面显示。单击记录即可查阅更多信息，并能复制记录。按着即可删除该项记录。\n\n"
-        "Dash notes未必能支持和确保在MIUI, EMUI 等其他定制UI上能正常运作。\n\n"
-        "我从未有任何编程的经验，如果你有任何意见和建议，欢迎联络我:P"</string>
+        "Dash notes 善用安卓新的快捷通知瓷贴和通知样式，给予用户一个快速，方便的记录方式。Dash notes也给予用户一个简单，整洁的接口，例如加入了material design 2的bottom sheet和snackbar。\n\n"
+        "Dash notes 能让你方便地记下任何东西，例如：\n"
+        " - 创作一个购买清单\n"
+        " - 记下一些提醒\n"
+        " - 记下一些重要的文字\n"
+        " - 写下自己的座右铭来鼓励自己\n"
+        "等等… 发掘自己个人的使用方式！\n\n"
+        "Dash notes未必能支持和确保在MIUI, EMUI, Flyme, Funtouch OS 等其他定制UI上能正常运作。Dash notes也不会支持这些设备，除非系统开发者愿意加回这些基本安卓的功能。\n\n"
+        "如果你有任何意见或任何方面建议，欢迎联络我:P"
+    </string>
     <string name="action_howtouse_message">你可以到阅读以下教程。\n如果有任何问题，欢迎联络我。</string>
+    <string name="tile_descriptions">记笔记</string>
+    <string name="action_howtouse_help">帮助和支持</string>
+    <string name="action_settings">设定</string>
+    <string name="sort_asc">由小至大</string>
+    <string name="sort_desc">由大至小</string>
+    <string name="main_toolbar_title">Dash notes - 历史记录</string>
+    <string name="main_longclick_delete_snackbar_undo">复原</string>
+    <string name="main_sort_time_asc_snackbar">已从记录时间的小至大排序。</string>
+    <string name="main_sort_time_desc_snackbar">已从记录时间的大至小排序。</string>
+    <string name="main_sort_title_asc_snackbar">已从标题的小至大排序。</string>
+    <string name="main_sort_title_desc_snackbar">已从标题的大至小排序。</string>
+    <string name="main_sort_notes_asc_snackbar">已从内容的小至大排序。</string>
+    <string name="main_sort_notes_desc_snackbar">已从内容的大至小排序。</string>
+    <string name="main_check_notification_disabled_message">通知已被禁用。</string>
+    <string name="main_check_disabled_button">设定</string>
+    <string name="main_check_notification_channel_disabled_message">通知频道已被禁用。</string>
+    <string name="preference_menu_reset_title">重置设定</string>
+    <string name="preference_menu_reset_message">你确认要重置全部设定吗？</string>
+    <string name="preference_screen_toolbar_title">设定</string>
+    <string name="preference_category_1_title">笔记通知</string>
+    <string name="preference_default_title_title">默认笔记标题</string>
+    <string name="preference_default_title_defaultValues">笔记</string>
+    <string name="preference_default_message_title">默认笔记内容</string>
+    <string name="preference_default_message_defaultValues">&lt;设置笔记&gt;</string>
+    <string name="preference_current_title_title">现时笔记标题</string>
+    <string name="preference_current_title_defaultValues">笔记</string>
+    <string name="preference_current_title_copy_snackbar_message">已复制笔记标题到剪贴板。</string>
+    <string name="preference_current_message_title">现时笔记内容</string>
+    <string name="preference_current_message_defaultValues">&lt;设置笔记&gt;</string>
+    <string name="preference_current_message_copy_snackbar_message">已复制笔记内容到剪贴板。</string>
+    <string name="preference_change_title_on_notification_title">在通知上更改标题</string>
+    <string name="preference_change_title_on_notification_summaryOn">你可以直接在通知上更改笔记的标题</string>
+    <string name="preference_change_title_on_notification_summaryOff">使用在上面默认的笔记标题</string>
+    <string name="preference_persistent_notification_title">持续通知</string>
+    <string name="preference_persistent_notification_summaryOn">笔记通知不会被滑动取消掉</string>
+    <string name="preference_persistent_notification_summaryOff">你可以滑动取消笔记通知</string>
+    <string name="preference_color_picker_dialogTitle">设置笔记通知的颜色</string>
+    <string name="preference_color_picker_summary">选择你喜欢的颜色</string>
+    <string name="preference_color_picker_title">笔记通知的颜色</string>
+    <string name="preference_notification_priority_title">笔记通知的优先程度</string>
+    <string name="preference_vibration_title">通知震动</string>
+    <string name="preference_vibration_summaryOn">你的设备在每次记笔记时都会震动</string>
+    <string name="preference_vibration_summaryOff">你的设备不会在每次记笔记时震动</string>
+    <string name="preference_notification_system_settings_title">额外笔记通知设置</string>
+    <string name="preference_category_1_information_summary">每次隐藏通知都会重设笔记标题和内容。</string>
+    <string name="preference_category_2_title">笔记标题建议</string>
+    <string name="preference_title_suggestions_title">标题建议</string>
+    <string name="preference_title_suggestions_summaryOn">已开启标题建议</string>
+    <string name="preference_title_suggestions_summaryOff">已关闭标题建议</string>
+    <string name="preference_default_suggestions_title">使用预设标题建议</string>
+    <string name="preference_default_suggestions_summaryOn">正在使用预设的标题建议</string>
+    <string name="preference_default_suggestions_summaryOff">正在使用自定义的标题建议</string>
+    <string name="preference_custom_suggestion_1_title">自定义建议1</string>
+    <string name="preference_custom_suggestion_2_title">自定义建议2</string>
+    <string name="preference_custom_suggestion_3_title">自定义建议3</string>
+    <string name="preference_custom_suggestion_1_defaultValue">待办事项</string>
+    <string name="preference_custom_suggestion_2_defaultValue">提醒</string>
+    <string name="preference_custom_suggestion_3_defaultValue">日程</string>
+    <string name="preference_category_2_information_summary">这个功能只能在安卓9或以上使用。使用这功能先必须开启‘在通知上更改标题’的选项。</string>
+    <string name="preference_category_3_title">用户接口</string>
+    <string name="preference_material_design_2_summary">使用新的Material Design主题</string>
+    <string name="preference_material_design_2_toast_message">已应用主题</string>
+    <string name="preference_dark_theme_title">夜间模式</string>
+    <string name="preference_dark_theme_summary">还在开发中，将在未来版本加入</string>
+    <string name="preference_category_3_information_summary">你可以在这自定义你喜欢的用户界面。</string>
+    <string name="about_recommended_apps_title">推荐的应用程序</string>
+    <string name="title_activity_settings">设定</string>
+    <string name="shortcut_disabled_message">已禁用</string>
+    <string name="history_shortcut_label">历史记录</string>
+    <string name="settings_shortcut_label">设定</string>
+    <string name="help_contacts_email_title">发送反馈</string>
+    <string name="help_contacts_email_headings">对Dash Notes的建议与反馈</string>
+    <string name="help_contacts_github_title">Github主页</string>
+    <string name="help_contacts_telegramchannel_title">加入Dash Notes的电报频道</string>
+    <string name="help_faq_tutorial_title">怎么记笔记？</string>
+    <string name="help_faq_tutorial_content">你可以拉下通知栏，加入Dash Notes的瓷贴，单击即可开始记事。</string>
+    <string name="help_faq_tutorial_positive_text">教程</string>
+    <string name="help_faq_nonstockrom_title">为什么这应用不能在我的设备上使用？</string>
+    <string name="help_faq_nonstockrom_content">那是因为这应用需要用到安卓基本特性，而你的设备的定制系统阉割了这些特性，是MIUI，EMUI，Flyme等定制系统。</string>
+    <string name="help_faq_nonstockrom_positive_text">归咎你的系统开发者</string>
+    <string name="help_faq_setnotestitle_title">我可以自定义笔记标题吗？</string>
+    <string name="help_faq_setnotestitle_content">当然可以！你可以在通知上直接修改笔记标题，如果你是安卓9或以上，你更可以设置标题建议来加快输入。</string>
+    <string name="help_faq_setnotescolors_title">我可以更改通知的颜色吗？</string>
+    <string name="help_faq_setnotescolors_content">没问题！你可以在设置中修改笔记通知的颜色。</string>
+    <string name="help_faq_history_title">历史记录有什么用？</string>
+    <string name="help_faq_history_content">每次按下你的笔记历史后，你可以看到一堆通知的信息，你甚至可以长按每一项来复制它们。</string>
+    <string name="help_faq_settingsproblems_title">为什么有些设置已被禁用？</string>
+    <string name="help_faq_settingsproblems_content">在更高的系统版本上，有些设置不能再应用中设置。请到系统应用中设置更多选项。</string>
+    <string name="help_faq_settingsproblems_positive_text">系统设置</string>
+    <string name="help_faq_titlesuggestions_title">为什么笔记标题建议的选项都被禁用了？</string>
+    <string name="help_faq_titlesuggestions_content">很抱歉，这个功能只能在安卓9或以上使用，但如果你即使是安卓9或以上，一些定制系统也未必支持这功能。</string>
+    <string name="notification_setNotes_hint">记笔记</string>
+    <string name="notification_setTitles_hint">设置标题</string>
+    <string name="notification_hide">隐藏</string>
+    <string name="action_help_support">帮助和支持</string>
+    <string name="main_menu_title">主菜单</string>
+    <string name="sort_title">历史记录排序</string>
+    <string name="sort_by_time">时间</string>
+    <string name="sort_by_title">标题</string>
+    <string name="sort_by_notes">笔记内容</string>
+    <string name="bottomsheet_header_title">笔记资讯</string>
+    <string name="bottomsheet_datentime_title">日期与时间</string>
+    <string name="bottomsheet_title_title">标题</string>
+    <string name="bottomsheet_notes_title">笔记内容</string>
+    <string name="help_menu_privacy_policy_title">隐私政策</string>
+    <string name="help_category_contacts_title">联系我们</string>
+    <string name="help_faq_category_title">常见问题</string>
+    <string name="preference_menu_update_notification">更新通知</string>
 </resources>
 
