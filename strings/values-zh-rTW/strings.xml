@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dash notes</string>
+    <string name="action_about">關於</string>
+    <string name="action_deleteAll">刪除全部</string>
+    <string name="action_howtouse_tutorial">教程</string>
+    <string name="title_activity_about">關於</string>
+    <string name="action_howtouse_title">使用方法</string>
+    <string name="main_emptylistview">暫無歷史記錄</string>
+    <string name="main_longclick_delete_title">刪除</string>
+    <string name="main_longclick_delete_message">你確認要刪除這項記錄嗎？</string>
+    <string name="main_longclick_delete_snackbar">已刪除記錄。</string>
+    <string name="main_swipetorefresh_snackbar">已刷新歷史。</string>
+    <string name="main_deleteall_title">刪除全部</string>
+    <string name="main_deleteall_message">你確認要刪除全部記錄嗎？</string>
+    <string name="main_deleteall_snackbar">已刪除全部記錄。</string>
+    <string name="bottomsheet_get_datentime_toast">日期與時間</string>
+    <string name="bottomsheet_get_title_toast">標題</string>
+    <string name="bottomsheet_get_message_toast">筆記</string>
+    <string name="bottomsheet_toast_message">已複製到剪貼板。</string>
+    <string name="about_about_app_title">關於</string>
+    <string name="about_contributors_title">貢獻者</string>
+    <string name="about_kaito_intro">一名從香港來的學生</string>
+    <string name="about_ysl_intro">圖標設計者以及我的代碼審閲者XD</string>
+    <string name="about_contacts_title">聯係方式</string>
+    <string name="about_opensource_title">開源許可</string>
+    <string name="noti_channel_descriptions">主要服務 - 在這頻道上記下你的筆記</string>
+    <string name="about_about_app_large_text">
+        "Dash notes - 一個簡潔的記事程式，運用安卓新特性來讓使用者記下任何文字。\n\n"
+        "Dash notes 善用安卓新的快捷通知瓷貼和通知樣式，給予使用者一個快速，方便的記錄方式。Dash notes也給予使用者一個簡單，整潔的界面，例如加入了material design 2的bottom sheet和snackbar。\n\n"
+        "使用方法：\n拉下通知欄，拖拽並加入Dash notes瓷貼，按一下瓷貼即可在通知上開始記事。\n\n"
+        "你的記事記錄會在主界面顯示。按一下記錄即可查閱更多資訊，並能複製記錄。按著即可刪除該項記錄。\n\n"
+        "Dash notes未必能支持和確保在MIUI, EMUI 等其他定制UI上能正常運作。\n\n"
+        "我從未有任何編程的經驗，如果你有任何意見和建議，歡迎聯絡我:P"</string>
+    <string name="action_howtouse_message">你可以到閲讀以下教程。\n如果有任何問題，歡迎聯絡我。</string>
+</resources>

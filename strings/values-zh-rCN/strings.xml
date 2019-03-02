@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dash notes</string>
+    <string name="action_about">关于</string>
+    <string name="action_deleteAll">删除全部</string>
+    <string name="action_howtouse_tutorial">教程</string>
+    <string name="title_activity_about">关于</string>
+    <string name="action_howtouse_title">使用方法</string>
+    <string name="main_emptylistview">暂无历史记录</string>
+    <string name="main_longclick_delete_title">删除</string>
+    <string name="main_longclick_delete_message">你确认要删除这项记录吗？</string>
+    <string name="main_longclick_delete_snackbar">已删除记录。</string>
+    <string name="main_swipetorefresh_snackbar">已刷新历史。</string>
+    <string name="main_deleteall_title">删除全部</string>
+    <string name="main_deleteall_message">你确认要删除全部记录吗？</string>
+    <string name="main_deleteall_snackbar">已删除全部记录。</string>
+    <string name="bottomsheet_get_datentime_toast">日期与时间</string>
+    <string name="bottomsheet_get_title_toast">标题</string>
+    <string name="bottomsheet_get_message_toast">笔记</string>
+    <string name="bottomsheet_toast_message">已复制到剪贴板。</string>
+    <string name="about_about_app_title">关于</string>
+    <string name="about_contributors_title">贡献者</string>
+    <string name="about_kaito_intro">一名从香港来的学生</string>
+    <string name="about_ysl_intro">图标设计者以及我的代码审阅者XD</string>
+    <string name="about_contacts_title">联系方式</string>
+    <string name="about_opensource_title">开源许可</string>
+    <string name="noti_channel_descriptions">主要服务 - 在这频道上记下你的笔记</string>
+    <string name="about_about_app_large_text">
+        "Dash notes - 一个简洁的记事程序，运用安卓新特性来让用户记下任何文字。\n\n"
+        "Dash notes 善用安卓新的快捷通知瓷贴和通知样式，给予用户一个快速，方便的记录方式。Dash notes也给予使用者一个简单，整洁的界面，例如加入了material design 2的bottom sheet和snackbar。\n\n"
+        "使用方法：\n拉下通知栏，拖拽并加入Dash notes瓷贴，单击瓷贴即可在通知上开始记事。\n\n"
+        "你的记事记录会在主界面显示。单击记录即可查阅更多信息，并能复制记录。按着即可删除该项记录。\n\n"
+        "Dash notes未必能支持和确保在MIUI, EMUI 等其他定制UI上能正常运作。\n\n"
+        "我从未有任何编程的经验，如果你有任何意见和建议，欢迎联络我:P"</string>
+    <string name="action_howtouse_message">你可以到阅读以下教程。\n如果有任何问题，欢迎联络我。</string>
+</resources>
+

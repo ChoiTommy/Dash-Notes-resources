@@ -1,0 +1,260 @@
+<resources>
+    <string name="app_name">Dash Notes</string>
+    <string name="tile_name" translatable="false">Dash notes</string>
+    <string name="tile_descriptions">Jot your notes</string>
+    <string name="title_activity_about">About</string>
+
+    <!--Main activity menu-->
+    <string name="action_deleteAll">Delete all</string>
+    <string name="action_howtouse_title">How to use?</string>
+    <string name="action_howtouse_message">You can navigate to this site to read a tutorial.\nIf you still have no clue, contact me.</string>
+    <string name="action_howtouse_tutorial">Tutorial</string>
+    <string name="action_howtouse_help">Help &amp; support</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="pref_previously_started" translatable="false">is_first</string>
+
+    <!--Main activity sorting menu-->
+    <string name="sort_asc">Ascending</string>
+    <string name="sort_desc">Desending</string>
+
+    <!--Main activity-->
+    <string name="main_toolbar_title">Dash notes - History</string>
+    <string name="main_emptylistview">No history.</string>
+    <string name="main_longclick_delete_title">Delete</string>
+    <string name="main_longclick_delete_message">Are you sure you want to delete this notes?</string>
+    <string name="main_longclick_delete_snackbar">Notes deleted.</string>
+    <string name="main_longclick_delete_snackbar_undo">Undo</string>
+    <string name="main_swipetorefresh_snackbar">History refreshed.</string>
+    <string name="main_deleteall_title">Delete ALL</string>
+    <string name="main_deleteall_message">Are you sure you want to delete ALL history?</string>
+    <string name="main_deleteall_snackbar">All deleted.</string>
+    <string name="bottomsheet_get_datentime_toast">Date and time</string>
+    <string name="bottomsheet_get_title_toast">Title</string>
+    <string name="bottomsheet_get_message_toast">Notes</string>
+    <string name="bottomsheet_toast_message">copied to clipboard.</string>
+
+    <string name="main_sort_time_asc_snackbar">Sorted by time in ascending order.</string>
+    <string name="main_sort_time_desc_snackbar">Sorted by time in descending order.</string>
+    <string name="main_sort_title_asc_snackbar">Sorted by title in ascending order.</string>
+    <string name="main_sort_title_desc_snackbar">Sorted by time in descending order.</string>
+    <string name="main_sort_notes_asc_snackbar">Sorted by notes in ascending order.</string>
+    <string name="main_sort_notes_desc_snackbar">Sorted by notes in descending order.</string>
+
+    <string name="main_check_notification_disabled_message">Notification is disabled.</string>
+    <string name="main_check_disabled_button">Settings</string>
+    <string name="main_check_notification_channel_disabled_message">Notification channel is disabled.</string>
+
+    <string name="noti_channel_descriptions">Main service - Jot your notes on this channel.</string>
+
+    <!--Preference screen meun-->
+    <string name="preference_menu_reset_title">Reset all preference</string>
+    <string name="preference_menu_reset_message">Are you sure you want to reset ALL preferences?</string>
+
+    <!--Preference screen-->
+    <string name="preference_screen_toolbar_title">Settings</string>
+    <string name="preference_category_1_title">Notes notification</string>
+
+    <string name="preference_default_title_key" translatable="false">DEFAULT_TITLE</string>
+    <string name="preference_default_title_title">Default notes title</string>
+    <string name="preference_default_title_defaultValues">Notes</string>
+
+    <string name="preference_default_message_key" translatable="false">DEFAULT_MESSAGE</string>
+    <string name="preference_default_message_title">Default notes</string>
+    <string name="preference_default_message_defaultValues">&lt;Set notes&gt;</string>
+
+    <string name="preference_current_title_key" translatable="false">CURRENT_TITLE</string>
+    <string name="preference_current_title_title">Current title</string>
+    <string name="preference_current_title_defaultValues">Notes</string>
+    <string name="preference_current_title_copy_snackbar_message">Title copied to clipboard.</string>
+
+    <string name="preference_current_message_key" translatable="false">CURRENT_MESSAGE</string>
+    <string name="preference_current_message_title">Current notes</string>
+    <string name="preference_current_message_defaultValues">&lt;Set notes&gt;</string>
+    <string name="preference_current_message_copy_snackbar_message">Notes copied to clipboard.</string>
+
+    <string name="preference_change_title_on_notification_key" translatable="false">CHANGE_TITLE</string>
+    <string name="preference_change_title_on_notification_title">Change title on notification</string>
+    <string name="preference_change_title_on_notification_summaryOn">You may change notes title directly on notification now.</string>
+    <string name="preference_change_title_on_notification_summaryOff">Always using default title set above.</string>
+
+    <string name="preference_persistent_notification_key" translatable="false">PERSISTENT_NOTIFICATION</string>
+    <string name="preference_persistent_notification_title">Persistent notes notification</string>
+    <string name="preference_persistent_notification_summaryOn">Notes can\'t be swiped away accidentally.</string>
+    <string name="preference_persistent_notification_summaryOff">You may swipe to dismiss notes now.</string>
+
+    <string name="preference_color_picker_key" translatable="false">COLOR_PICKER</string>
+    <string name="preference_color_picker_dialogTitle">Set your notes accent color</string>
+    <string name="preference_color_picker_summary">Choose your favourite color.</string>
+    <string name="preference_color_picker_title">Notes accent color</string>
+
+    <string name="preference_notification_priority_key" translatable="false">NOTES_PRIORITY</string>
+    <string name="preference_notification_priority_title">Notes notification priority</string>
+    <string-array name="preference_notification_priority_values_title">
+        <item>MAX</item>
+        <item>HIGH</item>
+        <item>DEFAULT</item>
+        <item>LOW</item>
+        <item>MIN</item>
+    </string-array>
+    <string-array name="preference_notification_priority_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+    </string-array>
+
+    <string name="preference_vibration_key" translatable="false">NOTIFICATION_VIBRATION</string>
+    <string name="preference_vibration_title">Notes vibration</string>
+    <string name="preference_vibration_summaryOn">Your device will vibrate each time when you jot notes.</string>
+    <string name="preference_vibration_summaryOff">Your device will not vibrate each time when you jot notes.</string>
+
+    <string name="preference_notification_system_settings_key" translatable="false">NOTIFICATION_SYSTEM_SETTINGS</string>
+    <string name="preference_notification_system_settings_title">Additional settings for notification</string>
+
+    <string name="preference_category_1_information_key" translatable="false">NOTES_NOTIFICATION_DESCRIPTIONS</string>
+    <string name="preference_category_1_information_summary">Title and notes contents will be reset to default value each time you hide the notification.</string>
+
+    <string name="preference_category_2_title">Notes title suggestions</string>
+
+    <string name="preference_title_suggestions_key" translatable="false">TITLE_SUGGESTIONS</string>
+    <string name="preference_title_suggestions_title">Title suggestions</string>
+    <string name="preference_title_suggestions_summaryOn">Title suggestions for your notes are enabled.</string>
+    <string name="preference_title_suggestions_summaryOff">Title suggestions for your notes are disabled.</string>
+
+    <string name="preference_default_suggestions_key" translatable="false">DEFAULT_SUGGESTIONS</string>
+    <string name="preference_default_suggestions_title">Use default suggestions</string>
+    <string name="preference_default_suggestions_summaryOn">Using preset title suggestions.</string>
+    <string name="preference_default_suggestions_summaryOff">Using custom title suggestions.</string>
+
+    <string name="preference_custom_suggestion_1_key" translatable="false">CUSTOM_SUGGESTION_1</string>
+    <string name="preference_custom_suggestion_1_title">Custom suggestion 1</string>
+    <string name="preference_custom_suggestion_1_defaultValue">To-do list</string>
+
+    <string name="preference_custom_suggestion_2_key" translatable="false">CUSTOM_SUGGESTION_2</string>
+    <string name="preference_custom_suggestion_2_title">Custom suggestion 2</string>
+    <string name="preference_custom_suggestion_2_defaultValue">Reminder</string>
+
+    <string name="preference_custom_suggestion_3_key" translatable="false">CUSTOM_SUGGESTION_3</string>
+    <string name="preference_custom_suggestion_3_title">Custom suggestion 3</string>
+    <string name="preference_custom_suggestion_3_defaultValue">Schedule</string>
+
+    <string name="preference_category_2_information_key">TITLE_SUGGESTIONS_DESCRIPTIONS</string>
+    <string name="preference_category_2_information_summary">This feature is only available for API 28(Android 9) or above. API 27 or below is not supported. \'Change title\' option should be enabled in order to use these suggestions.</string>
+
+    <string name="preference_category_3_title">User interface</string>
+
+    <string name="preference_material_design_2_key" translatable="false">MATERIAL_DESIGN_2</string>
+    <string name="preference_material_design_2_title">Material design 2</string>
+    <string name="preference_material_design_2_summary">Use new material design theme in snackbars, bottom sheets and much more.</string>
+    <string name="preference_material_design_2_toast_message">Theme applied.</string>
+
+    <string name="preference_dark_theme_key" translatable="false">DARK_THEME</string>
+    <string name="preference_dark_theme_title">Dark theme</string>
+    <string name="preference_dark_theme_summary">Under constructions</string>
+
+    <string name="preference_category_3_information_key" translatable="false">USER_INTERFACE_DESCRIPTIONS</string>
+    <string name="preference_category_3_information_summary">You may set your UI appearance here.</string>
+
+    <!--About activity-->
+    <string name="about_about_app_title">About this app</string>
+    <string name="about_about_app_large_text">
+        "Dash notes, a simple notes app aims to use stock android features.\n\n"
+
+        "Dash notes utilizes stock android quick settings tiles and notification services to provide fast, easy note-taking experience to users. It also gives you a fresh look in UI. Some material design 2 styles have been implemented, such as snackbar and the bottom sheet view.\n\n"
+        "How to use:\n"
+        "Pull down your quick settings panel, navigate to the edit qs tile button, and add Dash Notes tile to your quick settings panel.\n\n"
+
+        "In the main activity, you can see your note-taking histories. Press it and the information of your note will pop up from the bottom. Press and hold your history to delete it. In the bottom sheet view, you can press and hold to copy them.\n\n"
+        "If you face any question or want to give suggestions, feel free to contact me:P"
+    </string>
+    <string name="about_todo_title">To-do list</string>
+    <string name="about_todo_content">
+        "- IMPROVE CODE STRUCTURES. Let me learn more about OOP first.\n"
+        "- Reduce app size. I can't tolerate it. How come an app with NOT MUCH FUNCTIONALITY occupies 7MB???\n"
+        "- use multi-line feature in notification, get rid of hard coding\n"
+        "- use customadapter instead of simpleadapter in history listView\n"
+        "- use card view for history(?\n\n"
+        "Let me integrate Google firebase and finish the tasks above. No public release till then."
+    </string>
+    <string name="about_contributors_title">Contributors</string>
+    <string name="about_kaito_intro">A student from Hong Kong</string>
+    <string name="about_ysl_intro">App icon designer and my code proofreader</string>
+
+    <string name="about_recommended_apps_title">Recommended apps</string>
+
+    <string name="about_contacts_title">Contact</string>
+    <string name="about_contacts_main" translatable="false">
+        "Telegram: http://t.me/kai_to"
+    </string>
+    <string name="about_opensource_title">Open Source Licences</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--App shortcut-->
+    <string name="shortcut_disabled_message">Disabled.</string>
+    <string name="history_shortcut_label">History</string>
+    <string name="settings_shortcut_label">Settings</string>
+
+
+    <!--Help and support activity-->
+    <string name="help_contacts_email_key" translatable="false">CONTACTS_EMAIL</string>
+    <string name="help_contacts_email_title">Send feedback</string>
+    <string name="help_contacts_email_address" translatable="false">tommychoiht@gmail.com</string>
+    <string name="help_contacts_email_headings">Suggestions and feedback about Dash Notes</string>
+
+    <string name="help_contacts_github_key" translatable="false">CONTACTS_GITHUB</string>
+    <string name="help_contacts_github_title">Github page</string>
+    <string name="help_contacts_github_website" translatable="false">https://github.com/ChoiTommy/Dash-Notes-resources</string>
+
+    <string name="help_contacts_telegramchannel_key" translatable="false">CONTACTS_TELEGRAMCHANNEL</string>
+    <string name="help_contacts_telegramchannel_title">Join Dash Notes Telegram channel</string>
+    <string name="help_contacts_telegramchannel_website" translatable="false">https://t.me/tommychoi</string>
+
+    <string name="help_faq_tutorial_title">How to jot notes?</string>
+    <string name="help_faq_tutorial_key" translatable="false">FAQ_TUTORIAL</string>
+    <string name="help_faq_tutorial_content">You can simply pull down the notification panel, navigate for a new quick settings tiles called Dash Notes, add it to your quick settings, and tap it. You can start jotting notes on the notification now. That\'s it!</string>
+    <string name="help_faq_tutorial_positive_text">Tutorial</string>
+    <string name="help_faq_tutorial_positive_website" translatable="false">https://telegra.ph/Dash-notes-01-30</string>
+
+    <string name="help_faq_nonstockrom_key" translatable="false">FAQ_NON_STOCK_ROM</string>
+    <string name="help_faq_nonstockrom_title">Why this app isn\'t working on my device?</string>
+    <string name="help_faq_nonstockrom_content">Well, this app uses stock Android features for jotting notes. If you are in MIUI, EMUI, Flyme, or other custom rom, this app may not be supported. Blame your system developer for not keeping BASIC Android features.</string>
+    <string name="help_faq_nonstockrom_positive_text">Blame your system developer</string>
+    <string name="help_faq_nonstockrom_xiaomi_website" translatable="false">http://en.miui.com/</string>
+    <string name="help_faq_nonstockrom_oneplus_website" translatable="false">https://forums.oneplus.com/?from=head</string>
+    <string name="help_faq_nonstockrom_huawei_website" translatable="false">https://consumer.huawei.com/en/emui/</string>
+    <string name="help_faq_nonstockrom_meizu_website" translatable="false">http://www.flymeos.com</string>
+    <string name="help_faq_nonstockrom_universial_website" translatable="false">https://www.google.com</string>
+
+    <string name="help_faq_setnotestitle_title">Can I set custom notes title?</string>
+    <string name="help_faq_setnotestitle_key" translatable="false">FAQ_SET_NOTES_TITLE</string>
+    <string name="help_faq_setnotestitle_content">Sure! Type your notes title in the notification if you want. If you want to input the title faster, go and enable Title Suggestions in Settings, but this feature is only available for Android 9 or above.</string>
+
+    <string name="help_faq_setnotescolors_title">Can I change the notes notification colors?</string>
+    <string name="help_faq_setnotescolors_key" translatable="false">FAQ_SET_NOTES_COLORS</string>
+    <string name="help_faq_setnotescolors_content">Of course! I\'ve imported a color picker library for you to set your notes color. Go and check it in Settings.</string>
+
+    <string name="help_faq_history_title">What can I do with the notes history?</string>
+    <string name="help_faq_history_key" translatable="false">FAQ_HISTORY</string>
+    <string name="help_faq_history_content">After clicking your notes history, you can see a bunch of details of your notes. Long pressing each of them to copy them to clipboard. </string>
+
+    <string name="help_faq_settingsproblems_title">Why sometimes the preferences I set in Settings do not work?</string>
+    <string name="help_faq_settingsproblems_key" translatable="false">FAQ_SETTINGS_PROBLEMS</string>
+    <string name="help_faq_settingsproblems_content">Set your preferences in system settings rather than set them in the app. If the problems are still presented, contact me.</string>
+    <string name="help_faq_settingsproblems_positive_text">Navigate to system settings</string>
+
+    <string name="help_faq_titlesuggestions_key" translatable="false">FAQ_TITLE_SUGGESTIONS</string>
+    <string name="help_faq_titlesuggestions_title">Why the preferences of title suggestions are disabled?</string>
+    <string name="help_faq_titlesuggestions_content">This features are only for Android 9 or above. But if you are using non-stock android, this may not work even if your are on Android 9.</string>
+
+    <!--Notes notification-->
+    <string name="notification_setNotes_hint">Jot notes</string>
+    <string name="notification_setTitles_hint">Set title</string>
+    <string-array name="notification_default_title_suggestions">
+        <item>To-do list</item>
+        <item>Reminder</item>
+        <item>Practice schedule</item>
+    </string-array>
+    <string name="notification_hide">Hide</string>
+</resources>
