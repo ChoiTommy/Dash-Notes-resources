@@ -97,12 +97,12 @@
     <string name="preference_custom_suggestion_2_defaultValue">提醒</string>
     <string name="preference_custom_suggestion_3_defaultValue">日程</string>
     <string name="preference_category_2_information_summary">这个功能只能在安卓9或以上使用。使用这功能先必须开启‘在通知上更改标题’的选项。</string>
-    <string name="preference_category_3_title">用户接口</string>
+    <string name="preference_category_3_title">使用者界面</string>
     <string name="preference_material_design_2_summary">使用新的Material Design主题</string>
     <string name="preference_material_design_2_toast_message">已应用主题</string>
     <string name="preference_dark_theme_title">夜间模式</string>
     <string name="preference_dark_theme_summary">还在开发中，将在未来版本加入</string>
-    <string name="preference_category_3_information_summary">你可以在这自定义你喜欢的用户界面。</string>
+    <string name="preference_category_3_information_summary">你可以在这自定义你喜欢的使用者界面。</string>
     <string name="about_recommended_apps_title">推荐的应用程序</string>
     <string name="title_activity_settings">设定</string>
     <string name="shortcut_disabled_message">已禁用</string>
